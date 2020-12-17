@@ -1,0 +1,37 @@
+﻿<script src="https://global.oktacdn.com/okta-signin-widget/5.1.4/js/okta-sign-in.min.js" type="text/javascript"></script>
+<link href="https://global.oktacdn.com/okta-signin-widget/5.1.4/css/okta-sign-in.min.css" type="text/css" rel="stylesheet" />
+<!--<script src="../js/oktasignin.js" type="text/javascript"></script>-->
+
+<body>
+    @{
+        ViewData["Title"] = "Home Page";
+    }
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+    <div id="widget-container"></div>
+</body>
+
+<script type="text/javascript">
+
+    var signIn = new OktaSignIn({
+        // Assumes there is an empty element on the page with an id of 'osw-container'
+        el: '#widget-container',
+        baseUrl: 'https://dev-8780082.okta.com',
+        clientId: '0oa2jwk8yzvvx86FI5d6',
+        redirectUri: 'https://localhost:36564/',
+        authParams: {
+            pkce: false,
+            responseType: 'code'
+        }
+    });
+    alert("show sign in and redirect");
+    signIn.showSignInAndRedirect().catch(function (error) {
+        alert(error);
+        // This function is invoked with errors the widget cannot recover from:
+        // Known errors: CONFIG_ERROR, UNSUPPORTED_BROWSER_ERROR
+    });
+
+
+</script>

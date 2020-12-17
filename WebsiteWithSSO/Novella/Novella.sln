@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovellaUI", "NovellaUI\NovellaUI.csproj", "{37EBE7D2-D2D8-47F3-B849-C4BFFA2363FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovellaAPI", "NovellaAPI\NovellaAPI.csproj", "{D84C720C-2B12-4793-8BBE-F8ECC1D43626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovellaSpa", "NovellaSpa\NovellaSpa.csproj", "{205CD579-DDA2-47E0-9FE8-84BA8CDAD53C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37EBE7D2-D2D8-47F3-B849-C4BFFA2363FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EBE7D2-D2D8-47F3-B849-C4BFFA2363FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EBE7D2-D2D8-47F3-B849-C4BFFA2363FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EBE7D2-D2D8-47F3-B849-C4BFFA2363FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84C720C-2B12-4793-8BBE-F8ECC1D43626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84C720C-2B12-4793-8BBE-F8ECC1D43626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84C720C-2B12-4793-8BBE-F8ECC1D43626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84C720C-2B12-4793-8BBE-F8ECC1D43626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205CD579-DDA2-47E0-9FE8-84BA8CDAD53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205CD579-DDA2-47E0-9FE8-84BA8CDAD53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205CD579-DDA2-47E0-9FE8-84BA8CDAD53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205CD579-DDA2-47E0-9FE8-84BA8CDAD53C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCAD6DA5-168B-4228-B684-585B20758504}
+	EndGlobalSection
+EndGlobal
